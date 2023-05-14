@@ -6,7 +6,7 @@ SRA entries for Genomic projects in Solanum tuberosum
 Every time that the webpage updates the following information is loaded:
 Run_Accession Study_Accession Study_Title Library_Layout Instrument LibraryLayout Public_URL ReleaseDate Tissue Age Organism Genotype
 
-Dependencies:
+#Dependencies:
 
 django
 pandas
@@ -14,17 +14,9 @@ pysradb
 datetime
 itertools
 
-An env folder is avaliable:
-my_papa_world
+#The django project was tested in Ubuntu 22
 
-The django project was tested in Ubuntu 22
-
-Instructions:
-
-download the folder env
-open a shell in env folder
-activate the env with:
-source my_papa_world/bin/activate
+#Instructions:
 
 download the folder my_tennis_club
 open a shell in my_tennis_club folder
