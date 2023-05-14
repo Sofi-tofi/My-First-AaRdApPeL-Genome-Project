@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>My First AaRdApPeL Genome Project</h1>
+
+<li>SRA entries for Genomic projects in Solanum tuberosum<li>
+<li><li>
+<li>Every time that the webpage updates the following information is loaded:</li>
+<li><li>
+<li>Run_Accession Study_Accession Study_Title Library_Layout Instrument LibraryLayout Public_URL ReleaseDate Tissue Age Organism Genotype</li>
+<li><li>
+<li>ENTRIES LIST<li>
+ 
+<li><li>
+<ul>
+  {% for x in mymembers %}
+    <li>{{ x.run }} {{ x.bioproject }} {{ x.biosample  }} {{ x.assay_type   }} {{x.center_name   }} {{x.experiment }} {{x.instrument }} {{x.library_layout }} {{x.library_selection }} {{ x.library_source}} {{ x.org}}</li>
+  {% endfor %}
+</ul>
+
+</body>
+</html>
+
+
+
